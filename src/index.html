@@ -6,9 +6,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+
+  <section id="root">
+      <h1>The 100 Codes</h1>
+    <section class="content">
+      <p>Em um mundo pós apocalíptico as pessoas que 
+      ainda estão precisam se comunicar de alguma forma 
+      sem que outros entendam sua mensagem, principalmente
+      uma comandante e suas civis.</p>
+
+      <!-- Parte da mensagem -->
+      <p>Olá comandante e civis, para Cifrar ou Decifrar
+      uma mensagem basta digita-la na caixa abaixo:</p>
+      <input type="text" id="word" required>
+
+      <!-- Parte do offset -->
+      <p >Indique a quantidade de posições de 
+      deslocamento desejada</p>
+      <input type="number" id="desl" required>
+    </section>
+    <!-- Botões -->
+    <section class="buttons">
+      <p>Comandante</p>
+      <button id="btnCode">Cifrar</button>
+      <p>Civis</p>
+      <button id="btnDecode">Decifrar</button>
+    </section>
+    <section>
+      <p id="text"></p>
+      <p id="finalWord"></p>
+    </section>
+  </section>
+  
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
