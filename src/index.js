@@ -16,9 +16,5 @@ import cipher from './cipher.js';
   function printDecode() {
     let mensagem = document.getElementById("word").value
     let offset = document.getElementById("desl").value 
-    document.getElementById("finalWord").innerHTML = `Palavra decifrada: ${cipher.decode(offset,mensagem)}`
+      document.getElementById("finalWord").innerHTML = `Palavra decifrada: ${cipher.decode(offset,mensagem)}`
   }
-  
-  // if(mensagem, offset === null){
-    // alert("Por favor, insira um numero ou uma palavra")
-  // }

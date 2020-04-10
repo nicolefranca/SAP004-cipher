@@ -23,9 +23,6 @@ input{
     border-radius: 15px;
     text-align: center;
 }
-button{
-    display: inline-block;
-}
 #btnCode, #btnDecode{
     background-color: #d1d7d7;
     border-radius: 9px;
