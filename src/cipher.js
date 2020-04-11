@@ -3,7 +3,7 @@ const cipher = {
       let alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       let result = "";
       let space = " ";
-      if ((offset !== 0 && offset !== null) && (mensagem !== 0 && mensagem !== "")){
+      if ((offset !== "" && offset !== null) && (mensagem !== 0 && mensagem !== "")){
         for(let i=0; i< mensagem.length ;i++){
           let codWord = mensagem.toUpperCase().charAt(i)
           //  console.log(codWord)
@@ -28,7 +28,7 @@ const cipher = {
       let alfabeto = "ZYXWVUTSRQPONMLKJIHGFEDCBA";
        let result = "";
        let space = " ";
-      if((offset !== 0 && offset !== null)&&(mensagem !== 0 && mensagem !== "")){
+      if((offset !== "" && offset !== null)&&(mensagem !== 0 && mensagem !== "")){
         for(var i=0; i< mensagem.length ;i++){
             let codWord = mensagem.toUpperCase().charAt(i)
             if(codWord != " "){
