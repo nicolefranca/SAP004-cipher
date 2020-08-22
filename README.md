@@ -23,7 +23,7 @@ Poder dicifrar ou cifrar mensagens, a partir do deslocamento inserido pelo usár
 
  A partir de um projeto da @Laboratoria
 
- Créditos rezervados à série The 100 by CW Television Network
+ Créditos reservados à série The 100 by CW Television Network
 
 # Licença
 
