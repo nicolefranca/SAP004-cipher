@@ -1,15 +1,13 @@
 const cipher = {
   encode: function encode(offset, mensagem) {
     let result = "";
-    // let space = " ";
     if (offset == "" || offset == null || mensagem == 0 || mensagem == "") {
       throw new TypeError();
     } else {
       for (let i = 0; i < mensagem.length; i++) {
-        let codWord = mensagem.toUpperCase().charAt(i);
+        let codWord = mensagem.toUpperCase().charCodeAt(i);
         if (codWord != " ") {
-          let codWord = mensagem.charCodeAt(i);
-          let encode = String.fromCharCode(((codWord - "A".charCodeAt() - offset) % 26) + "A".charCodeAt());
+          let encode = String.fromCharCode(((codWord -65 + Number(offset)) % 26) + 65);
           result += encode;
         } else {
           result += " ";
@@ -20,15 +18,13 @@ const cipher = {
   },
   decode: function decode(offset, mensagem) {
     let result = "";
-    // let space = " ";
     if (offset == "" || offset == null || mensagem == 0 || mensagem == "") {
       throw new TypeError();
     } else {
       for (let i = 0; i < mensagem.length; i++) {
-        let codWord = mensagem.toUpperCase().charAt(i);
+        let codWord = mensagem.toUpperCase().charCodeAt(i);
         if (codWord != " ") {
-          let codWord = mensagem.charCodeAt(i);
-          let encode = String.fromCharCode(((codWord - "Z".charCodeAt() - offset) % 26) + "Z".charCodeAt());
+          let encode = String.fromCharCode(((codWord -65 - Number(offset)) % 26) + 65);
           result += encode;
         } else {
           result += " ";
