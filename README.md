@@ -6,7 +6,7 @@
 * [4. Interface](#4-Interface)
 * [5. Autoria](#5-Autoria)
 
-## Jogo
+# Jogo
 
 Esse jogo permite ao usúario entrar em sua série e agir como seus comandantes ou civis.
 
