@@ -1,5 +1,11 @@
 # The 100 Codes
 
+* [1. Jogo](#1-Jogo)
+* [2. Objetivo](#2-Objetivo)
+* [3. Usuários](#3-Usuários)
+* [4. Interface](#4-Interface)
+* [5. Autoria](#5-Autoria)
+
 ## Jogo
 
 Esse jogo permite ao usúario entrar em sua série e agir como seus comandantes ou civis.
@@ -17,13 +23,17 @@ Poder dicifrar ou cifrar mensagens, a partir do deslocamento inserido pelo usár
 * Comandantes
 * Civis
 
+# Interface
+
+![](./src/imagens/interface.png)
+
 # Autoria
 
  Nicole França Gonçalves
 
  A partir de um projeto da @Laboratoria
 
- Créditos rezervados à série The 100 by CW Television Network
+ Créditos reservados à série The 100 by CW Television Network
 
 # Licença
 
