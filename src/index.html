@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
     <title>The 100 Codes</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-  <section id="root">
+    <main id="root">
       <h1>The 100 Codes</h1>
-    <section class="content">
-      <p>Em um mundo pós apocalíptico as pessoas que 
-      ainda estão precisam se comunicar de alguma forma 
-      sem que outros entendam sua mensagem, principalmente
-      uma comandante e suas civis.</p>
+      <section class="content">
+        <p>
+          Em um mundo pós apocalíptico as pessoas que ainda estão precisam se
+          comunicar de alguma forma sem que outros entendam sua mensagem,
+          principalmente uma comandante e suas civis.
+        </p>
 
-      <!-- Parte da mensagem -->
-      <p>Olá comandante e civis, para Cifrar ou Decifrar
-      uma mensagem basta digita-la na caixa abaixo:</p>
-      <input type="text" id="word">
+        <!-- Parte da mensagem -->
+        <p>
+          Olá comandante e civis, para Cifrar ou Decifrar uma mensagem basta
+          digita-la na caixa abaixo:
+        </p>
+        <input type="text" id="word" />
 
-      <!-- Parte do offset -->
-      <p >Indique a quantidade de posições de 
-      deslocamento desejada</p>
-      <input type="number" id="desl">
-    </section>
-    <!-- Botões -->
-    <section class="buttons">
-      <p>Comandante</p>
-      <button id="btnCode">Cifrar</button>
-      <p>Civis</p>
-      <button id="btnDecode">Decifrar</button>
-    </section>
-    <section id="resp">
-      <p id="text"></p>
-      <p id="finalWord"></p>
-    </section>
-  </section>
-  
+        <!-- Parte do offset -->
+        <p>Indique a quantidade de posições de deslocamento desejada</p>
+        <input type="number" id="desl" />
+      </section>
+      <!-- Botões -->
+      <section >
+        <p>Comandante</p>
+        <button id="btn-code" class="button">Cifrar</button>
+        <p>Civis</p>
+        <button id="btn-decode" class="button">Decifrar</button>
+      </section>
+      <section id="resp">
+        <p id="text"></p>
+        <p id="finalWord"></p>
+      </section>
+    </main>
 
     <script src="index.js" type="module"></script>
   </body>
